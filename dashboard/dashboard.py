@@ -56,7 +56,7 @@ max_date = pd.to_datetime(all_df['order_approved_at']).dt.date.max()
 
 # Sidebar setup
 with st.sidebar:
-    st.image("D:/BANGKIT-ML/submission/dashboard/download.jpg")  # Update path to local image file
+    st.image("dashboard/download.jpg")  # Update path to local image file
     start_date, end_date = st.date_input(
         label='Time Span',
         min_value=min_date,
