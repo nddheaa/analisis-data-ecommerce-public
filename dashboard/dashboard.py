@@ -7,7 +7,7 @@ import datetime as dt
 
 
 # Load the data
-all_df = pd.read_csv('main_data.csv')
+all_df = pd.read_csv('dashboard/main_data.csv')
 
 # Define functions for processing data
 def create_product_count_df(df):
